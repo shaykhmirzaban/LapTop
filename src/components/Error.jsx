@@ -14,7 +14,7 @@ const Error = () => {
         <p>
           We're working on it <span>😊</span>
         </p>
-        <img src="./src/assets/images/error.svg" alt="" width="350px" />
+        <img src="./public/images/error.svg" alt="" width="350px" />
         <button
           onClick={() => {
             navigate("/");

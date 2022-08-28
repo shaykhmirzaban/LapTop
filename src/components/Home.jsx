@@ -63,7 +63,7 @@ const Home = () => {
       <section className="label">
         <div className="labelCenter">
           <div className="col1">
-            <img src="./src/assets/images/sofa2.jpg" alt="" />
+            <img src="./public/images/sofa2.jpg" alt="" />
           </div>
           <div className="col2">
             <h1>New Laptop X12S3</h1>

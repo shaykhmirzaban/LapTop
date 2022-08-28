@@ -9,7 +9,7 @@
       rgb(164 98 39 / 55%),
       rgb(130 29 24 / 55%)
     ),
-    url(./src/assets/images/cover.jpg);
+    url(./public/images/cover.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -63,7 +63,7 @@
 .aboutUS .col1 {
   width: 45%;
   height: 550px;
-  background-image: url("./src/assets/images/about.jpg");
+  background-image: url("./public/images/about.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

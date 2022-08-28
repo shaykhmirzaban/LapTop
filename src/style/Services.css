@@ -7,7 +7,7 @@
       rgb(164 98 39 / 55%),
       rgb(130 29 24 / 55%)
     ),
-    url(./src/assets/images/services.jpg);
+    url(./public/images/services.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

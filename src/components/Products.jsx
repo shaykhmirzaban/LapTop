@@ -19,7 +19,7 @@ const Products = () => {
               <div className="card1" key={val.id}>
                 <div className="image">
                   <img
-                    src={`./src/assets/images/${val.image}`}
+                    src={`./public/images/${val.image}`}
                     alt={val.name}
                   />
                 </div>

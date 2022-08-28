@@ -14,7 +14,7 @@ const Services1 = (props) => {
           </p>
         </div>
         <div className="col1">
-          <img src={`./src/assets/images/${props.image}.jpg`} alt="not found" />
+          <img src={`./public/images/${props.image}.jpg`} alt="not found" />
         </div>
       </section>
     </React.StrictMode>
