@@ -7,7 +7,7 @@
       rgb(164 98 39 / 55%),
       rgb(130 29 24 / 55%)
     ),
-    url(./public/images/services.jpg);
+    url(../images/services.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,4 +47,10 @@
   border-left-color: #2f83a6;
   border-right-color: #df332a;
   box-shadow: 0 0 0px 2px #eee;
+}
+
+@media screen and (max-width: 550px) {
+  .cover1 p {
+    width: 100%;
+  }
 }

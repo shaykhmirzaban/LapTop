@@ -7,18 +7,15 @@ import "../style/Navbar.css";
 const Navbar = () => {
   let navigate = useNavigate();
   let flag = true;
-  let body = document.querySelector("body");
 
   const show = () => {
     let mnav = document.querySelector(".mobileNav");
-    body.style.backgroundColor = "#333";
     mnav.style.transform = "translateX(0px)";
     flag = false;
   };
 
   const hidden = () => {
     let mnav = document.querySelector(".mobileNav");
-    body.style.backgroundColor = "transparent";
     mnav.style.transform = "translateX(-600px)";
     flag = true;
   };
@@ -27,7 +24,13 @@ const Navbar = () => {
     <React.StrictMode>
       <section className="navbar">
         <div className="logo">
-          <h1 onClick={() => {navigate("/")}}>LapTop</h1>
+          <h1
+            onClick={() => {
+              navigate("/");
+            }}
+          >
+            LapTop
+          </h1>
         </div>
         {/* computer */}
         <nav>
@@ -39,10 +42,18 @@ const Navbar = () => {
         {/* Mobile */}
         <div className="mobileNav">
           <div className="nav1">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="cards">Cards</NavLink>
-            <NavLink to="services">Services</NavLink>
-            <NavLink to="contact">Contact us</NavLink>
+            <NavLink to="/" onClick={hidden}>
+              Home
+            </NavLink>
+            <NavLink to="cards" onClick={hidden}>
+              Cards
+            </NavLink>
+            <NavLink to="services" onClick={hidden}>
+              Services
+            </NavLink>
+            <NavLink to="contact" onClick={hidden}>
+              Contact us
+            </NavLink>
           </div>
         </div>
         <div

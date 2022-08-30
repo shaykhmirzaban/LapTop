@@ -28,7 +28,7 @@ const Services = () => {
       <Services1 name={"Purchase"} image={"about"} />
       <section className="service1">
         <div className="col1" style={{ justifyContent: "flex-start" }}>
-          <img src="./public/images/card4.jpg" alt="not found" />
+          <img src="./images/card4.jpg" alt="not found" />
         </div>
         <div className="col2">
           <h1>Process</h1>

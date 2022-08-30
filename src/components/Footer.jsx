@@ -11,9 +11,9 @@ const Footer = () => {
         <div className="top">
           <h1>LapTop</h1>
           <p>
-            LapTop is a store which provide all types of laptop. Price is very
-            low and easy to process. If you any confusion so please contact us
-            below link.
+            The laptop is a store that provides all types of laptops. The price
+            is very low and easy to process. If you any confusion so please
+            contact us below link.
           </p>
           <ul>
             <li>

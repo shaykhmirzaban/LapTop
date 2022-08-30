@@ -40,21 +40,33 @@ const Home = () => {
           molestiae iusto unde deserunt reiciendis rem et quisquam error?
           Commodi ea saepe quibusdam? Veniam,
         </p>
-        <button onClick={() => {navigate("cards")}}>Buy Now</button>
+        <button
+          onClick={() => {
+            navigate("cards");
+          }}
+        >
+          Buy Now
+        </button>
       </section>
       <section className="aboutUS">
         <div className="col1"></div>
         <div className="col2">
           <h1>About US</h1>
           <p>
-            We provide best product we happy our customer from 3+year
-            Alhamdulillah we get positive response customer our customer all
-            over the world. If you place your order so we try to deliver as soon
-            as possible. Our main branch is located Pakistan in City of Karachi.
-            If your product has any type of problem so you replace it fill some
-            form.
+            We provide the best products we have been happy with our customers
+            for 3+year Alhamdulillah we get cheerful response customer our
+            customers all over the world. If you place your order so we will try
+            to deliver as soon as possible. Our main branch is located in
+            Pakistan in the City of Karachi. If your product has any type of
+            problem so you replace it to fill some form.
           </p>
-          <button onClick={() => {navigate("/detail")}}>learn More</button>
+          <button
+            onClick={() => {
+              navigate("/detail");
+            }}
+          >
+            learn More
+          </button>
         </div>
       </section>
       <section className="product">
@@ -63,7 +75,7 @@ const Home = () => {
       <section className="label">
         <div className="labelCenter">
           <div className="col1">
-            <img src="./public/images/sofa2.jpg" alt="" />
+            <img src="./images/sofa2.jpg" alt="" />
           </div>
           <div className="col2">
             <h1>New Laptop X12S3</h1>

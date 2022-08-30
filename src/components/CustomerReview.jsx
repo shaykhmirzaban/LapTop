@@ -19,7 +19,7 @@ const CustomerReview = () => {
               <div className="customer1" key={val.id}>
                 <div className="images">
                   <img
-                    src={`./public/images/${val.image}.jpg`}
+                    src={`./images/${val.image}.jpg`}
                     alt={val.name}
                   />
                 </div>
